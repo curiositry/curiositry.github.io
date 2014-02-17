@@ -417,10 +417,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 @font-face {
       font-family: 'Linux Libertine Display';
-      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_dr-webfont.eot');
-      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_dr-webfont.eot?#iefix') format('embedded-opentype'),
-           url('http://omphalosskeptic.github.io/themefonts/linlibertine_dr-webfont.woff') format('woff'),
-           url('http://omphalosskeptic.github.io/themefonts/linlibertine_dr-webfont.ttf') format('truetype');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_dr-webfont.eot');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_dr-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_dr-webfont.woff') format('woff'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_dr-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
 
@@ -428,10 +428,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
   @font-face {
       font-family: 'Linux Libertine';
-      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_r-webfont.eot');
-      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_r-webfont.eot?#iefix') format('embedded-opentype'),
-           url('http://omphalosskeptic.github.io/themefonts/linlibertine_r-webfont.woff') format('woff'),
-           url('http://omphalosskeptic.github.io/themefonts/linlibertine_r-webfont.ttf') format('truetype');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_r-webfont.eot');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_r-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_r-webfont.woff') format('woff'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_r-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
 
@@ -439,10 +439,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
   @font-face {
       font-family: 'Linux Libertine';
-      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_rb-webfont.eot');
-      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_rb-webfont.eot?#iefix') format('embedded-opentype'),
-           url('http://omphalosskeptic.github.io/themefonts/linlibertine_rb-webfont.woff') format('woff'),
-           url('http://omphalosskeptic.github.io/themefonts/linlibertine_rb-webfont.ttf') format('truetype');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_rb-webfont.eot');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_rb-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_rb-webfont.woff') format('woff'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_rb-webfont.ttf') format('truetype');
       font-weight: 700;
       font-style: normal;
 
@@ -450,10 +450,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
   @font-face {
       font-family: 'Linux Libertine';
-      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_ri-webfont.eot');
-      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_ri-webfont.eot?#iefix') format('embedded-opentype'),
-           url('http://omphalosskeptic.github.io/themefonts/linlibertine_ri-webfont.woff') format('woff'),
-           url('http://omphalosskeptic.github.io/themefonts/linlibertine_ri-webfont.ttf') format('truetype');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_ri-webfont.eot');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_ri-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_ri-webfont.woff') format('woff'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_ri-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: italic;
 
