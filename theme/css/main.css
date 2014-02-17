@@ -35,6 +35,21 @@ body {
     line-height: 1.4;
 }
 
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6{
+	/*font-family: Linux Libertine Capitals O, 'Linux Libertine SC', Linux Libertine O, 'Linux Libertine', serif;*/
+	/*font-weight: normal;*/
+}
+
+h3{
+	border-bottom: 3px double #eee;
+	padding-bottom: 7px;
+}
+
+/*#banner h1, .site-subtitle{
+	font-family: Linux Libertine O, 'Linux Libertine', serif;
+}*/
+
 hr { border: 2px solid #EEEEEE; }
 
 /* Anchors */
@@ -147,13 +162,15 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		max-width: 800px;
 		border-top: 1px dashed #ccc;
 		border-bottom: 1px dashed #ccc;
+	
 	}
 	
 	#banner nav ul {list-style: none; margin: 0 auto; width: 100%;max-width: 800px;display: flex;
 		justify-content:center;}
 	#banner nav li {float: left; display: inline; margin: 0;}
 	#banner li:after{content:" / ";}
-	#banner a{margin-left: 10px !important;}
+		
+	#banner a{margin-left: 7px;}
 
 	
 	#banner nav a:link, #banner nav a:visited {
