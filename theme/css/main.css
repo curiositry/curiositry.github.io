@@ -28,7 +28,7 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
 /* Body */
 body {
     /* color: #444; */
-    font-family: Linux Libertine O, 'Linux Libertine O', serif;
+    font-family: Linux Libertine O, 'Linux Libertine', serif;
     font-size: 24px;
     margin: 0;
     padding: 0;
@@ -255,29 +255,29 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	}
 	
 		/* Icons */
-		.social a[href*='about.me'] {background-image: url('../images/icons/aboutme.png');}
-		.social a[href*='bitbucket.org'] {background-image: url('../images/icons/bitbucket.png');}
-		.social a[href*='delicious.com'] {background-image: url('../images/icons/delicious.png');}
-		.social a[href*='digg.com'] {background-image: url('../images/icons/digg.png');}
-		.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
-		.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}
+		.social a[href*='about.me'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/aboutme.png');}
+		.social a[href*='bitbucket.org'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/bitbucket.png');}
+		.social a[href*='delicious.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/delicious.png');}
+		.social a[href*='digg.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/digg.png');}
+		.social a[href*='facebook.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/facebook.png');}
+		.social a[href*='gitorious.org'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/gitorious.png');}
 		.social a[href*='github.com'],
-		.social a[href*='git.io'] {background-image: url('../images/icons/github.png');}
-		.social a[href*='gittip.com'] {background-image: url('../images/icons/gittip.png');}
-		.social a[href*='plus.google.com'] {background-image: url('../images/icons/google-plus.png');}
-		.social a[href*='groups.google.com'] {background-image: url('../images/icons/google-groups.png');}
+		.social a[href*='git.io'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/github.png');}
+		.social a[href*='gittip.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/gittip.png');}
+		.social a[href*='plus.google.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/google-plus.png');}
+		.social a[href*='groups.google.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/google-groups.png');}
 		.social a[href*='news.ycombinator.com'],
-		.social a[href*='hackernewsers.com'] {background-image: url('../images/icons/hackernews.png');}
-		.social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
-		.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
-		.social a[href*='reddit.com'] {background-image: url('../images/icons/reddit.png');}
-		.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
-		.social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
-		.social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
-		.social a[href*='stackoverflow.com'] {background-image: url('../images/icons/stackoverflow.png');}
-		.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
-		.social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
-		.social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
+		.social a[href*='hackernewsers.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/hackernews.png');}
+		.social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/lastfm.png');}
+		.social a[href*='linkedin.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/linkedin.png');}
+		.social a[href*='reddit.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/reddit.png');}
+		.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/rss.png');}
+		.social a[href*='slideshare.net'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/slideshare.png');}
+		.social a[href*='speakerdeck.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/speakerdeck.png');}
+		.social a[href*='stackoverflow.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/stackoverflow.png');}
+		.social a[href*='twitter.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/twitter.png');}
+		.social a[href*='vimeo.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/vimeo.png');}
+		.social a[href*='youtube.com'] {background-image: url('http://omphalosskeptic.github.io/themeimages/icons/youtube.png');}
 
 /*
 	About
@@ -417,10 +417,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 @font-face {
       font-family: 'Linux Libertine Display';
-      src: url('../fonts/linlibertine_dr-webfont.eot');
-      src: url('../fonts/linlibertine_dr-webfont.eot?#iefix') format('embedded-opentype'),
-           url('../fonts/linlibertine_dr-webfont.woff') format('woff'),
-           url('../fonts/linlibertine_dr-webfont.ttf') format('truetype');
+      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_dr-webfont.eot');
+      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_dr-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://omphalosskeptic.github.io/themefonts/linlibertine_dr-webfont.woff') format('woff'),
+           url('http://omphalosskeptic.github.io/themefonts/linlibertine_dr-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
 
@@ -428,10 +428,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
   @font-face {
       font-family: 'Linux Libertine';
-      src: url('../fonts/linlibertine_r-webfont.eot');
-      src: url('../fonts/linlibertine_r-webfont.eot?#iefix') format('embedded-opentype'),
-           url('../fonts/linlibertine_r-webfont.woff') format('woff'),
-           url('../fonts/linlibertine_r-webfont.ttf') format('truetype');
+      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_r-webfont.eot');
+      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_r-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://omphalosskeptic.github.io/themefonts/linlibertine_r-webfont.woff') format('woff'),
+           url('http://omphalosskeptic.github.io/themefonts/linlibertine_r-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
 
@@ -439,10 +439,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
   @font-face {
       font-family: 'Linux Libertine';
-      src: url('../fonts/linlibertine_rb-webfont.eot');
-      src: url('../fonts/linlibertine_rb-webfont.eot?#iefix') format('embedded-opentype'),
-           url('../fonts/linlibertine_rb-webfont.woff') format('woff'),
-           url('../fonts/linlibertine_rb-webfont.ttf') format('truetype');
+      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_rb-webfont.eot');
+      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_rb-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://omphalosskeptic.github.io/themefonts/linlibertine_rb-webfont.woff') format('woff'),
+           url('http://omphalosskeptic.github.io/themefonts/linlibertine_rb-webfont.ttf') format('truetype');
       font-weight: 700;
       font-style: normal;
 
@@ -450,10 +450,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
   @font-face {
       font-family: 'Linux Libertine';
-      src: url('../fonts/linlibertine_ri-webfont.eot');
-      src: url('../fonts/linlibertine_ri-webfont.eot?#iefix') format('embedded-opentype'),
-           url('../fonts/linlibertine_ri-webfont.woff') format('woff'),
-           url('../fonts/linlibertine_ri-webfont.ttf') format('truetype');
+      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_ri-webfont.eot');
+      src: url('http://omphalosskeptic.github.io/themefonts/linlibertine_ri-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://omphalosskeptic.github.io/themefonts/linlibertine_ri-webfont.woff') format('woff'),
+           url('http://omphalosskeptic.github.io/themefonts/linlibertine_ri-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: italic;
 
@@ -461,10 +461,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
   @font-face {
       font-family: 'Linux Libertine SC';
-      src: url('../fonts/linlibertine_as-webfont.eot');
-      src: url('../fonts/linlibertine_as-webfont.eot?#iefix') format('embedded-opentype'),
-           url('../fonts/linlibertine_as-webfont.woff') format('woff'),
-           url('../fonts/linlibertine_as-webfont.ttf') format('truetype');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_as-webfont.eot');
+      src: url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_as-webfont.eot?#iefix') format('embedded-opentype'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_as-webfont.woff') format('woff'),
+           url('http://omphalosskeptic.github.io/theme/fonts/linlibertine_as-webfont.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
   }
