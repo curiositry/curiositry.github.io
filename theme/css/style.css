@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,
 
 
 
-
+@import url(http://fonts.googleapis.com/css?family=Alegreya+SC:400,400italic,700,700italic|Alegreya:400,400italic,700italic,700&subset=latin,latin-ext);
 
 
 
@@ -35,7 +35,7 @@ body {
   padding-right: 20px;
   font-size: 18px;
 
-  font-family: Alegreya, Calendas Plus, sans-serif;
+  font-family: 'Alegreya', Alegreya Calendas Plus, sans-serif;
   line-height: 1.4;
 
   -moz-font-feature-settings: "liga=1, dlig=1";
@@ -49,7 +49,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1,.h2,.h3,.h4,.h5,.h6{
 
-  font-family: Alegreya SC, Roboto Black, Roboto;
+  font-family:'Alegreya SC', Alegreya SC, Roboto Black, Roboto;
   font-weight: 700;
   text-transform: lowercase;
   color: brown;
@@ -79,7 +79,7 @@ a, .anchor{
   border-bottom: 1px dotted gray;
 
   color:#222;
-  font-family: Alegreya SC;
+  font-family:'Alegreya SC', Alegreya SC;
   text-decoration: none;
 }
 
@@ -117,7 +117,7 @@ ol{
 
 .amp{
   font-style: italic;
-  font-family: Alegreya SC;
+  font-family:'Alegreya SC', Alegreya SC;
   font-size: 1.2em;
   font-weight: inherit !important;
 }
@@ -282,9 +282,9 @@ ol{
   }
 
   .siteheader__logo{
-    max-height:70px;
+    max-height:60px;
     position:relative;
-    top:5px;
+    top:10px;
   }
 
   .menu{
