@@ -35,7 +35,7 @@ body {
   padding-right: 20px;
   font-size: 18px;
 
-  font-family: 'Alegreya', Alegreya Calendas Plus, sans-serif;
+  font-family: 'Alegreya', Alegreya, Calendas Plus, sans-serif;
   line-height: 1.4;
 
   -moz-font-feature-settings: "liga=1, dlig=1";
@@ -79,7 +79,7 @@ a, .anchor{
   border-bottom: 1px dotted gray;
 
   color:#222;
-  font-family:'Alegreya SC', Alegreya SC;
+  font-family:'Alegreya SC', Alegreya SC, Serif;
   text-decoration: none;
 }
 
@@ -117,7 +117,7 @@ ol{
 
 .amp{
   font-style: italic;
-  font-family:'Alegreya SC', Alegreya SC;
+  font-family:'Alegreya SC', Alegreya SC, Helvetica;
   font-size: 1.2em;
   font-weight: inherit !important;
 }
@@ -157,7 +157,7 @@ ol{
 }*/
 
 .siteheader__sitesubtitle{
-  font-family: Hagin Caps Thin;
+  font-family: Hagin Caps Thin, 'Alegreya SC', Alegreya SC, Helvetica;
   font-size: 2em;
   padding-top: 20px;
   text-align: center;
@@ -184,7 +184,7 @@ ol{
   border-top: 3px double moccasin;
   border-bottom: none;
 
-  font-family: Hagin Caps Thin, Roboto Black, Roboto;
+  font-family: Hagin Caps Thin, Roboto Black, Roboto, Helvetica;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: .15em;
