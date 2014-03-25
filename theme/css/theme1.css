@@ -33,11 +33,22 @@ code, pre{
 }
 
 .amp{
-  font-family:'Alegreya SC', Alegreya SC, Helvetica;
+  font-family: "Alegreya" Alegreya, Helvetica;
+  font-style: italic;
 }
 
 .siteheader__sitesubtitle{
-  font-family: Hagin Caps Thin, 'Alegreya SC', Alegreya SC, Helvetica;
+  font-family: Hagin Caps Thin, 'Alegreya', Alegreya, Helvetica;
+
+  text-transform: lowercase;
+  font-variant: small-caps;
+
+  -moz-font-feature-settings:"c2sc";
+  -moz-font-feature-settings:"c2sc=1";
+  -ms-font-feature-settings:"c2sc";
+  -o-font-feature-settings:"c2sc";
+  -webkit-font-feature-settings:"c2sc";
+  font-feature-settings:"c2sc";
 }
 
 .menu{
@@ -47,7 +58,17 @@ code, pre{
 .menu__item a{
   border-top: 3px double moccasin;
   border-bottom: none;
-  font-family: Hagin Caps Thin, Roboto Black, Roboto, Helvetica;
+  font-family: Hagin Caps Thin, Alegreya, Roboto Black, Roboto, Helvetica;
+  text-transform: lowercase;
+  font-variant: small-caps;
+
+  -moz-font-feature-settings:"c2sc";
+  -moz-font-feature-settings:"c2sc=1";
+  -ms-font-feature-settings:"c2sc";
+  -o-font-feature-settings:"c2sc";
+  -webkit-font-feature-settings:"c2sc";
+  font-feature-settings:"c2sc";
+  
   letter-spacing: .15em;
   font-weight: 900;
   text-transform: uppercase;
