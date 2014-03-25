@@ -5,9 +5,18 @@ body{
 
 h1, h2, h3, h4, h5, h6,
 .h1,.h2,.h3,.h4,.h5,.h6{
-  font-family:'Alegreya SC', Alegreya SC, Roboto Black, Roboto;
+  font-family:'Alegreya', Alegreya, Roboto Black, Roboto;
   font-weight: 700;
   text-transform: lowercase;
+  font-variant: small-caps;
+
+  -moz-font-feature-settings:"c2sc";
+  -moz-font-feature-settings:"c2sc=1";
+  -ms-font-feature-settings:"c2sc";
+  -o-font-feature-settings:"c2sc";
+  -webkit-font-feature-settings:"c2sc";
+  font-feature-settings:"c2sc";
+
   color: brown;
 }
 
