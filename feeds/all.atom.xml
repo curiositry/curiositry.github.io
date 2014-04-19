@@ -4,15 +4,14 @@
 &lt;h3&gt;About&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://github.com/omphalosskeptic/bohemian"&gt;Source Code&lt;/a&gt;
 &lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;This is a pelican theme I wrote to use here on my github page, replacing my older &lt;a href="htto://omphalosskeptic.github.io/clean-pelican-theme.html"&gt;Clean&lt;/a&gt; theme. &lt;/p&gt;
-&lt;p&gt;Bohemian is &lt;strong&gt;Free, Responsive, Open Source, &amp;amp; Typographically Tasteful.&lt;/strong&gt; Built to provide a great reading experience with minimal clutter, Bohemian will ready your Pelican site for 21st century.&lt;/p&gt;
+&lt;p&gt;Bohemian is a pelican theme I wrote to use here on my github page, replacing my older &lt;a href="htto://omphalosskeptic.github.io/clean-pelican-theme.html"&gt;Clean&lt;/a&gt; theme. It’s &lt;strong&gt;Free, Responsive, Open Source, &amp;amp; Typographically Tasteful&lt;/strong&gt;; built to provide a great reading experience with minimal clutter, Bohemian will ready your Pelican site for 21st century.&lt;/p&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fully Responsive&lt;/li&gt;
 &lt;li&gt;Lightweight&lt;/li&gt;
 &lt;li&gt;Typeset in the beautiful Alegreya, served by &lt;a href="http://brick.im"&gt;Brick&lt;/a&gt; for blazing speed.&lt;/li&gt;
 &lt;li&gt;Two Handsome Subthemes build on the same base … the one on this site and the theme used by &lt;a href="http://scienceclass.github.io"&gt;Science Class&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Modern, clutter free design with an emphasis on a great reading experience.&lt;/li&gt;
+&lt;li&gt;Modern, clutter free design makes for a great reading experience.&lt;/li&gt;
 &lt;li&gt;Option to use text or image for the logo
 &lt;br&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -43,11 +42,12 @@
 &lt;h3&gt;Technology&lt;/h3&gt;
 &lt;p&gt;This one uses PHP with the data stored — eek — in an a array. It uses a bit of Jquery, Meanmenu, Typeplate.css, Hint.css, Fittext.js, and Mathjax.&lt;/p&gt;</summary></entry><entry><title>Emspectrum.info</title><link href="http://omphalosskeptic.github.io/emspectruminfo.html" rel="alternate"></link><updated>2014-02-03T00:00:00+01:00</updated><author><name>Omphalosskeptic</name></author><id>tag:omphalosskeptic.github.io,2014-02-03:emspectruminfo.html</id><summary type="html">&lt;p&gt;&lt;br&gt;
 &lt;img src="http://omphalosskeptic.github.io/images/emspectrum.png" style="width: 100%;max-width:800px;" /&gt;&lt;/p&gt;
-&lt;h3&gt;About&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://github.com/omphalosskeptic/algebrarules.com"&gt;Contribute to Repo&lt;/a&gt; &lt;/p&gt;
+&lt;h3&gt;A Visual Tour of the Electromagnetic Spectrum&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://github.com/omphalosskeptic/emspectrum.info"&gt;Contribute to Repo&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;The Electromagnetic Spectrum pervades everything. The sounds in your ears; the words you speak; the cellphone you love to distraction; the radio and TV that blare in the background — even the light from this screen hitting your eyes. Do you understand it? &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;emspectrum.info&lt;/strong&gt; will allow you to discover the wonders of the ubiquitous electromagnetic spectrum.&lt;/p&gt;
 &lt;h3&gt;Technology&lt;/h3&gt;
-&lt;p&gt;At the moment the SVGs are being generated with a python script and the data is stored in a MySQL DB. We may switch to SQLite at some point. The front end will be written in JavaScript, and data may be transferred with JSON.&lt;/p&gt;
-&lt;p&gt;It will use Jquery, HTML5Boilerplate, and a load of other stuff.&lt;/p&gt;</summary></entry><entry><title>Automathic.org</title><link href="http://omphalosskeptic.github.io/automathicorg.html" rel="alternate"></link><updated>2014-01-21T00:00:00+01:00</updated><author><name>Omphalosskeptic</name></author><id>tag:omphalosskeptic.github.io,2014-01-21:automathicorg.html</id><summary type="html">&lt;p&gt;&lt;br&gt;
+&lt;p&gt;At the moment the SVGs are being generated with a python script and the data is stored in a MySQL DB. Emspectrum.info in under develoment, and we will be opening for signups shortly. The GitHub repo is currently empty, but drop and line if you’re interested in contributing.&lt;/p&gt;</summary></entry><entry><title>Automathic.org</title><link href="http://omphalosskeptic.github.io/automathicorg.html" rel="alternate"></link><updated>2014-01-21T00:00:00+01:00</updated><author><name>Omphalosskeptic</name></author><id>tag:omphalosskeptic.github.io,2014-01-21:automathicorg.html</id><summary type="html">&lt;p&gt;&lt;br&gt;
 &lt;a href="http://automathic.org"&gt;View Site&lt;/a&gt;&lt;br&gt;&lt;br&gt;
 &lt;img src="http://omphalosskeptic.github.io/images/automathic.png" style="width: 100%;max-width:800px;" /&gt;
 &lt;br&gt;&lt;/p&gt;
