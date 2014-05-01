@@ -24,23 +24,24 @@
 &lt;h3&gt;Subtheme 2&lt;/h3&gt;
 &lt;p&gt;&lt;img src="http://omphalosskeptic.github.io/images/bohemian5.png" style="width: 100%;max-width:800px;margin: 0 auto;" /&gt;
 &lt;img src="http://omphalosskeptic.github.io/images/bohemian6.png" style="width: 100%;max-width:800px;margin: 0 auto;" /&gt;
-&lt;img src="http://omphalosskeptic.github.io/images/bohemian7.png" style="width: 100%;max-width:800px;margin: 0 auto;" /&gt;&lt;/p&gt;</summary></entry><entry><title>Science Class</title><link href="http://omphalosskeptic.github.io/science-class.html" rel="alternate"></link><updated>2014-03-30T00:00:00+01:00</updated><author><name>Omphalosskeptic</name></author><id>tag:omphalosskeptic.github.io,2014-03-30:science-class.html</id><summary type="html">&lt;p&gt;&lt;br&gt; &lt;img src="http://omphalosskeptic.github.io/images/scienceclass.png" style="width: 100%;max-width:800px;" /&gt;&lt;/p&gt;
+&lt;img src="http://omphalosskeptic.github.io/images/bohemian7.png" style="width: 100%;max-width:800px;margin: 0 auto;" /&gt;&lt;/p&gt;</summary></entry><entry><title>Science Class</title><link href="http://omphalosskeptic.github.io/science-class.html" rel="alternate"></link><updated>2014-03-30T00:00:00+01:00</updated><author><name>Omphalosskeptic</name></author><id>tag:omphalosskeptic.github.io,2014-03-30:science-class.html</id><summary type="html">&lt;p&gt;&lt;br&gt; &lt;img src="http://omphalosskeptic.github.io/images/bohemian5.png" style="width: 100%;max-width:800px;" /&gt;&lt;/p&gt;
 &lt;h3&gt;About&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://scienceclass.github.io"&gt;View Site&lt;/a&gt; //
 &lt;a href="http://github.com/omphalosskeptic/scienceclass"&gt;Source Code&lt;/a&gt; &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;A small site I built providing no-nonsense science projects to all the bright autodidacts out there.&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://omphalosskeptic.github.io/theme/images/scienceclass2.png" style="width: 100%;max-width:800px;" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://omphalosskeptic.github.io/images/bohemian6.png" style="width: 100%;max-width:800px;" /&gt;&lt;/p&gt;
 &lt;h3&gt;Technology&lt;/h3&gt;
-&lt;p&gt;Built with the Python static site generator &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; running my custom Pelican theme &lt;a href="http://github.com/omphalosskeptic/clean"&gt;Clean&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Algebrarules.com</title><link href="http://omphalosskeptic.github.io/algebrarulescom.html" rel="alternate"></link><updated>2014-03-05T00:00:00+01:00</updated><author><name>Omphalosskeptic</name></author><id>tag:omphalosskeptic.github.io,2014-03-05:algebrarulescom.html</id><summary type="html">&lt;p&gt;&lt;br&gt;
+&lt;p&gt;Built with the Python static site generator &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; running my custom Pelican theme &lt;a href="http://github.com/omphalosskeptic/bohemian"&gt;Bohemian&lt;/a&gt;.&lt;/p&gt;</summary></entry><entry><title>Algebrarules.com</title><link href="http://omphalosskeptic.github.io/algebrarulescom.html" rel="alternate"></link><updated>2014-03-05T00:00:00+01:00</updated><author><name>Omphalosskeptic</name></author><id>tag:omphalosskeptic.github.io,2014-03-05:algebrarulescom.html</id><summary type="html">&lt;p&gt;&lt;br&gt;
 &lt;img src="http://omphalosskeptic.github.io/images/algebrarules.png" style="width: 100%;max-width:800px;" /&gt;&lt;/p&gt;
 &lt;h3&gt;About&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://algebrarules.com"&gt;View Site&lt;/a&gt; //
 &lt;a href="http://github.com/omphalosskeptic/algebrarules.com"&gt;Source Code&lt;/a&gt;
 &lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Algebrarules.com provides the most useful Rules of Algebra in one place: easy to understand, free, search-able, and accompanied by informative descriptions and examples.&lt;/p&gt;
+&lt;p&gt;These simple rules — applied with a pinch of imagination and a dash of arithmetic — can divide, conquer, and solve just about any basic algebra problem.&lt;/p&gt;
 &lt;p&gt;This is a collaboration between myself and &lt;a href="http://github.com/photosynthesis"&gt;Photosythesis&lt;/a&gt;; I built the site and he did the math.&lt;/p&gt;
-&lt;p&gt;This was originally going to be a dirt-simple single html file, but the project experienced some mission creep.&lt;/p&gt;
 &lt;h3&gt;Technology&lt;/h3&gt;
-&lt;p&gt;This one uses PHP with the data stored — eek — in an a array. It uses a bit of Jquery, Meanmenu, Typeplate.css, Hint.css, Fittext.js, and Mathjax.&lt;/p&gt;</summary></entry><entry><title>Emspectrum.info</title><link href="http://omphalosskeptic.github.io/emspectruminfo.html" rel="alternate"></link><updated>2014-02-03T00:00:00+01:00</updated><author><name>Omphalosskeptic</name></author><id>tag:omphalosskeptic.github.io,2014-02-03:emspectruminfo.html</id><summary type="html">&lt;p&gt;&lt;br&gt;
+&lt;p&gt;This one uses PHP with the data stored — for simplicity, but at the cost of style points — in an a array. It makes use of of Jquery, as well as Meanmenu, Typeplate.css, Hint.css, Fittext.js, and Mathjax.&lt;/p&gt;</summary></entry><entry><title>Emspectrum.info</title><link href="http://omphalosskeptic.github.io/emspectruminfo.html" rel="alternate"></link><updated>2014-02-03T00:00:00+01:00</updated><author><name>Omphalosskeptic</name></author><id>tag:omphalosskeptic.github.io,2014-02-03:emspectruminfo.html</id><summary type="html">&lt;p&gt;&lt;br&gt;
 &lt;img src="http://omphalosskeptic.github.io/images/emspectrum.png" style="width: 100%;max-width:800px;" /&gt;&lt;/p&gt;
 &lt;h3&gt;A Visual Tour of the Electromagnetic Spectrum&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://github.com/omphalosskeptic/emspectrum.info"&gt;Contribute to Repo&lt;/a&gt; &lt;/p&gt;
