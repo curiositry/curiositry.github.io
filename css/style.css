@@ -15,16 +15,18 @@ Released into the public domain by @omphalosskeptic (http://github.com/omphaloss
 }
 
 html {
-  font-size:100%;
+  font-size:50%;
 }
 
 body {
-  font-size:21px;
+  font-size:18px;
   font-family: 'calendas_plus', Calendas Plus, Alegreya;
 }
 
 .octicon{
   font-size:1.2em;
+  width: 5%;
+  text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -188,4 +190,13 @@ header{
     font-weight: normal;
     font-style: normal;
 
+}
+
+@media all and (min-width:960px){
+  html{
+    font-size:100%;
+  }
+  body{
+    font-size:21px;
+  }
 }
