@@ -12,6 +12,7 @@ Released into the public domain by @omphalosskeptic (http://github.com/omphaloss
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+/*  border: 1px dotted red;*/
 }
 
 html {
@@ -27,6 +28,10 @@ body {
   font-size:1.2em;
   width: 5%;
   text-align: center;
+}
+
+.octicon-mark-github{
+  display: none;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -146,6 +151,11 @@ header{
   text-align: center;
 }
 
+.projects__list{
+  margin-top: 0;
+  padding-left: 0;
+}
+
 
 /* =================== FONT-FACE =========================== */
 
@@ -198,5 +208,14 @@ header{
   }
   body{
     font-size:21px;
+  }
+
+  .octicon-mark-github{
+    display: inline-block;
+  }
+
+  .github-icon{
+    margin-right: 50px;
+    margin-top: .5em;
   }
 }
