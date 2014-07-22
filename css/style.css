@@ -20,7 +20,7 @@ html {
 
 body {
   font-size:18px;
-  font-family: 'calendas_plus', Calendas Plus, Georgia, Alegreya;
+  font-family: Calendas Plus, 'calendas_plus', Calendas Plus, Georgia, Alegreya;
 }
 
 .octicon{
@@ -95,11 +95,11 @@ input:focus, input:active, button:focus, button:active {
 }
 
 .sc {
-  -moz-font-feature-settings: "smcp=1";
-  -ms-font-feature-settings: "smcp";
-  -webkit-font-feature-settings: "smcp";
-  -o-font-feature-settings: "smcp";
-  font-feature-settings: "smcp";
+  -moz-font-feature-settings: "smcp=1" !important;
+  -ms-font-feature-settings: "smcp" !important;
+  -webkit-font-feature-settings: "smcp" !important;
+  -o-font-feature-settings: "smcp" !important;
+  font-feature-settings: "smcp" !important;
 }
 
 .cf:before,
