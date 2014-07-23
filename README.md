@@ -1,7 +1,6 @@
-microplate
-==========
+My Minimal Portfolio
+=========================
 
-The bare essentials for any responsive website — halfway between Emmet’s !tab and HTML5 Boilerplate — distributed without any licence to knobble your website. Attribution, although appreciated, is not required.
+My GitHub page serves as a hub for my web projects — nothing fancy here, I like to say that *The Creation is the Citation*.
 
-## Components
-- The neccisary meta tags: description, author, charset, keywords, viewport, mobileOptimized + handheldFriendly
+![Screenshot](http://omphalosskeptic.github.io/images/portfolio.png)
