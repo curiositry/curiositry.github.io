@@ -1,0 +1,53 @@
+@import 'scss/vendor/sanitize';
+@import 'scss/vendor/normalize-opentype';
+@import 'scss/vendor/typegreat';
+// @import 'scss/vendor/responsive-nav';
+
+@import 'scss/base/variables';
+
+@import 'scss/utils/helpers';
+@import 'scss/utils/mixins';
+
+@import 'scss/base/base';
+@import 'scss/base/typography';
+@import 'scss/base/print';
+
+// @import 'scss/components/menu-icon';
+@import 'scss/components/figures';
+@import 'scss/components/buttons';
+// @import 'scss/components/subscribe-widgets';
+@import 'scss/components/share';
+@import 'scss/components/quotes';
+@import 'scss/components/embeds';
+@import 'scss/components/asides';
+@import 'scss/components/gallery';
+
+@import 'scss/layout/header';
+@import 'scss/layout/footer';
+// @import 'scss/layout/menu';
+// @import 'scss/layout/author-info';
+// @import 'scss/layout/post-teaser';
+
+// @import 'scss/pages/tag';
+// @import 'scss/pages/author';
+
+.logo {
+    float:left;
+    max-height:4rem;
+    display:inline;
+    margin-top:2.25rem;
+    margin-right:2rem;
+    @include breakpoint(mbl){
+      display: block;
+      float:none;
+      margin:0 auto;
+    }
+}
+
+.header {
+  @include breakpoint(mbl){
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}

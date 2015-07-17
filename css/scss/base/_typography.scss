@@ -1,0 +1,208 @@
+body{
+  font-family: $interface-font-stack;
+  @include breakpoint(lg){
+    font-size: 21px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-stack;
+  font-weight: 900;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  color: $secondary-color;
+}
+
+li {
+  margin-bottom: 2rem
+}
+
+li em {
+  margin-top: 0.25rem;
+  display: block;
+  font-size:0.9rem;
+}
+
+li a {
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.featured-projects li a {
+  font-size:1.25rem !important;
+}
+
+.featured-projects li em {
+  font-size: 1rem;
+}
+
+h1 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  @include breakpoint(sm){
+    margin-bottom: 3rem;
+  }
+}
+
+h4 {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $tertiary-color;
+}
+
+h1,h3 {
+  text-align: center;
+  @include breakpoint(sm){
+    text-align: left;
+    float: left;
+    display: block;
+    width: calc(100% - 150px);
+  }
+}
+
+i {
+  position: relative;
+  top:0.2rem;
+}
+
+.post__title, 
+.post-teaser__title a {
+  color: $primary-color;
+}
+
+.post-teaser__title a:hover {
+    color: $interactive-color;
+}
+
+p, 
+.content, 
+.content li {
+  font-family: $text-font-stack;
+}
+
+a {
+  color: $interactive-color;
+  border-bottom: 1px solid $tertiary-color;
+  -webkit-transition: color, .2s;
+  -o-transition: color, .2s;
+  transition: color, .2s;
+  
+  &:hover {
+    color: $active-color;
+    border-bottom: 2px solid $tertiary-color;
+  }
+}
+
+[disabled] {
+  color: $butler-color;
+}
+
+.post__content > p:first-of-type {
+  @extend .dropcap;
+}
+
+footer, 
+aside {
+  font-family: $interface-font-stack;
+}
+
+// .post-teaser__meta,
+// .site-footer__attribution,
+// .post__meta {
+//   font-family: $interface-font-stack;
+//   font-weight: 700;
+//   transition: color, .5s;
+//   font-size: 1rem;
+//   &:hover {
+//     color: shade($butler-color, 75);
+//     transition: color, .5s;
+//   }
+//   & a {
+//     color: tint($interactive-color, 50);
+//     border-bottom: none;
+//   }
+// }
+
+.read-more, 
+hr:after,
+.post-teaser__meta,
+.site-footer__attribution,
+.post__meta,
+.butler-color {
+  color: $butler-color;
+}
+
+body,
+hr:after {
+  background-color: $bg-color;
+}
+
+.post-teaser__meta,
+.site-footer__attribution,
+.post__meta {
+  font-family: $interface-font-stack;
+  font-weight: 700;
+  transition: color, .5s;
+  font-size: 0.8rem;
+  &:hover {
+    color: shade($butler-color, 75);
+    transition: color, .5s;
+  }
+  & a {
+    color: tint($interactive-color, 50);
+    border-bottom: none;
+  }
+}
+
+.post__meta {
+  font-size:1rem;
+}
+
+.site-footer__attribution {
+  @include breakpoint(md) {
+    font-size: 1.125rem;
+  }
+}
+
+
+// 
+// ================================================ 
+// 
+// # Traditional Paragraphing
+// 
+// These styles set up book style paragraphing, and make the spacing work.
+// Unfortunatly, you can’t use p + p with inline elements (like thumbanils).
+// 
+// Comment this block out if you want your paragraphs marked by space rather
+// than indent. 
+// 
+// ================================================ 
+
+// .post-content > p + p,
+// .post-content .thumb + p,
+// .post-content aside + p{
+//   text-indent:1.65em;
+// }
+// 
+// .post-content p{
+//   margin-bottom:0em;
+//   -webkit-margin-after: 0em;
+// }
+// 
+// .post-content > h1,
+// .post-content > h2,
+// .post-content > h3{
+//   margin-top: 2.857rem;
+//   margin-bottom: 1.65rem;
+// }
+// 
+// .post-content > h4,
+// .post-content > h5,
+// .post-content > h5{
+//   margin-top: 3.3rem;
+//   margin-bottom: 1.1rem;
+// }

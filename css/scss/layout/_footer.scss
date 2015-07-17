@@ -1,0 +1,47 @@
+.site-footer {
+  text-align: center;
+  padding: 0.5rem 2rem 2rem 2rem;
+  border-top: 1px solid $tertiary-color;
+}
+
+.site-footer:before {
+  content: "§";
+  font: normal 1.5rem $text-font-stack;
+  display: inline;
+  line-height: 0;  
+  margin-top: 0;  
+  height: 0;  
+  position: relative;  
+  bottom: (0.4rem + $x-height-offset);
+  color: $tertiary-color;
+  background-color: $bg-color;
+}
+
+.site-footer__navigation ul {
+  margin-top: 0;
+}
+
+.site-footer__navigation li{
+  display: inline;
+}
+
+.site-footer__navigation li:after {
+  content: ' // ' !important;
+  color: $tertiary-color !important;
+}
+
+.site-footer__attribution span {
+  display: block;
+  margin-top: 0.5rem;
+  @include breakpoint(lg) {
+    display: inline;
+    margin-top: auto;
+  }
+}
+
+.site-footer__attribution .meta-spacer::after {
+    content: '';
+    @include breakpoint(lg) {
+      content: ' • ';
+    }
+}

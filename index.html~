@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="I craft code + content for the web, and write about software and amateur neuroscience. This is where you can find my whole eclectic collection of projects."/>
+  <meta name="description" content="An autodidact who crafts code + content for the web."/>
   <meta name="author" content="Curiositry">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="MobileOptimized" content="320">
@@ -12,34 +12,75 @@
   <title>Curiositry &bull; Code &amp; Content</title>
   <link rel="stylesheet" href="css/main.css" media="screen" />
   <link rel="shortcut icon" href="http://cdn.autodidacts.io/img/autodidacts/gravitar-favicon.png" />
-  <link rel="apple-touch-icon" href="http://cdn.autodidacts.io/img/autodidacts/gravitar-small.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <style>
+  li {
+    /*list-style-type:square;*/
+    margin-bottom: 2rem
+  }
+  
+  li em {
+    margin-top: 0.25rem;
+    display: block;
+    font-size:0.9rem;
+  }
+  
+  li a {
+    font-family: Roboto;
+    font-weight: 700;
+  }
+  
+  .featured-projects li a {
+    font-size:1.25rem !important;
+  }
+  
+  .featured-projects li em {
+    font-size: 1rem;
+  }
+  
+  
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  h3 {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  
+  h1,h3 {
+    float: left;
+    display: block;
+    width: calc(100% - 150px);
+  }
+  
+  i {
+    position: relative;
+    top:0.2rem;
+  }
+    
+  </style>
 
 </head>
 <body class="container">
-  <header>
-    <img class="logo" src="img/curiositry-bg.png" alt="">
-    <h1>Curiositry</h1>
-    <h3>Code <span class="amp">&amp;</span> Content</h3><br clear="all">
-  </header>
+  <img style="float:left;max-height:4rem;display:inline;margin-top:2.25rem;margin-right:2rem;" src="img/curiositry-bg.png" alt="">
+  <h1>Curiositry</h1>
+  <h3>Code <span class="amp">&amp;</span> Content</h3><br clear="all">
   
-  <span><strong><span id="greeting">Good day</span></strong>, and thanks for stopping by! I craft code + content for the web and  <a href="http://autodidacts.io">write</a> about software and amateur neuroscience. 
-In this <del style="text-decoration: line-through;">portfolio</del> listicle you’ll find some of the <del style="text-decoration: line-through;">startups</del> web projects I’ve <del style="text-decoration: line-through;">founded</del>  hacked together. Over on GitHub you can find my open-source <a href="http://github.com/curiositry"> code</a>, and you can follow <a href="http://twitter.com/curiositry">@curiositry</a> on Twitter for the occasional (gzipped) thought. </span>
+  
   <main class="content" id="content">
-    
-
-
 <span class="featured-projects">
-#### Featured projects:
-
 1. [Autodidacts.io][1] *The blog of three thing-building, self-educating, voraciously-reading, computer-tinkering, music-playing brothers*
 2. [Neurobb.com][2] *The EEG, brain-computer interface, and biofeedback discussion forum.*
 3. [Algebrarules.com][3]  *All the most useful Rules of Algebra in one place: easy to understand, free, and accompanied by informative descriptions & examples.*
 4. [MNML Ghost Blog Theme][4]  *A beautiful, responsive, and featureful blog theme with great typography.*
 5. [EEGrunt][15] *A Collection Python EEG Analysis Utilities for OpenBCI*
 </span>
+------
 
-
-#### Older projects:
+Older Projects:
 
 5. [Markdown.tools][5]  *A pleasant way to print & view markdown documents*
 6. [Automathic.org][6]  *The Best Mathematical Forumlas on the Web*
@@ -80,21 +121,21 @@ In this <del style="text-decoration: line-through;">portfolio</del> listicle you
     &copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>
     <span class="meta-spacer"></span>
     <a href="http://twitter.com/curiositry">
-      <i class="fa fa-twitter"></i> Twitter 
+      <i class="fa fa-twitter"></i> Twitter
     </a>
     <span class="meta-spacer"></span>
     
     <a href="http://github.com/curiositry">
-      <i class="fa fa-github"></i> GitHub 
+      <i class="fa fa-github"></i> GitHub
       </a>
     <span class="meta-spacer"></span>
     
     <a href="mailto:info@automathic.org">
-      <i class="fa fa-envelope"></i> Email 
+      <i class="fa fa-envelope"></i> Email
       </a>
     <span class="meta-spacer"></span>
     
-    <em class="serif m0a db center-text"> The Creation is the Citation </em>
+    <em class="serif m0a db center-text">The Creation is the Citation</em>
     
     
   </footer>
@@ -102,21 +143,6 @@ In this <del style="text-decoration: line-through;">portfolio</del> listicle you
     
   </script>
   <script>
-      var data = [
-       [0, 11, "Good morning"],          //It is always better to use an array
-       [12, 17, "Good afternoon"],       //to save data
-       [18, 24, "Good night"]
-    ],
-       hr = new Date().getHours();
-
-    for(var i=0; i<data.length;i++){
-       if(hr >= data[i][0] && hr <= data[i][1]){
-           document.getElementById("greeting").innerHTML = data[i][2];
-       }
-    }
-    
-    // =======
-    
     var md = window.markdownit({
     html:         true,        // Enable HTML tags in source
     xhtmlOut:     false,        // Use '/' to close single tags (<br />).
@@ -129,9 +155,8 @@ In this <del style="text-decoration: line-through;">portfolio</del> listicle you
     el = document.getElementById("content").innerHTML
     var result = md.render(el);
     el = document.getElementById("content").innerHTML = result
-    
-    // ========
-    
+  </script>
+  <script>
     var cb = function() {
       var l = document.createElement('link'); l.rel = 'stylesheet';
       l.href = 'css/defer.css';

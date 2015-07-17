@@ -1,0 +1,12 @@
+.nav-toggle {
+  cursor: pointer;
+  color: $interactive-color; 
+  &:hover {
+    color: $active-color; 
+  }
+} 
+
+.js-nav-active .nav-toggle {
+  color: $active-color; 
+  
+}

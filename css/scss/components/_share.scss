@@ -1,0 +1,53 @@
+.share {
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+  bottom: 0.8rem;
+}
+
+.share__intro {
+  position: relative;
+  top: 0.8rem;
+  // color: shade($butler-color, 75);
+  color: $secondary-color;
+}
+
+.share .fa-inverse {
+  position: relative;
+  bottom: 0.4rem;
+  color: $interactive-color;
+  &:hover {
+    color: $active-color;;
+  }
+}
+
+// targeting firefox only to fix postitioning
+_:-moz-tree-row(hover), .share .fa-inverse {
+  bottom: 0.9rem;
+  
+}
+
+.share .fa-square-o {
+  color: $tertiary-color;
+}
+
+.fa-stack:hover .fa-twitter-square {
+  color: #4099FF;
+}
+
+.fa-stack:hover .fa-facebook-square {
+  color: #3a5795;
+}
+
+.fa-stack:hover .fa-google-plus-square {
+  color: #dd4b39;
+}
+
+.fa-stack:hover .fa-reddit-square {
+  color: orangered;
+}
+
+.fa-stack:hover .fa-envelope-square {
+  color: #777;
+}
+

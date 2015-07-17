@@ -1,0 +1,48 @@
+// These colors are for www.autodidacts.io, and are trademarked and
+// watermarked and earmarked as such. I’m giving this theme away, but
+// please don’t use this color scheme. It’s totally not available.
+
+$orange: #F9690E;
+$gold: #E87E04;
+$madison: #2c3e50;
+
+$interactive-color: $gold;
+$active-color: $orange;
+
+$primary-color: #6B1E00;
+$secondary-color: $madison;
+$tertiary-color: mix(#ebdebd, white, 75);
+
+$butler-color: mix($secondary-color, white, 45);
+$bg-color: #fdfdfd;
+
+
+$text-font-stack:  'Georgia', 'Charter', 'Alegreya', 'PT Serif', 'Source Serif Pro', 'Charter', 'Georgia', serif;
+$interface-font-stack:  'Roboto', 'Source Sans Pro', 'Roboto', 'PT Sans', 'Helvetica', sans-serif;
+$header-font-stack:  $interface-font-stack;
+$mono-font-stack: 'Source Code Pro', monospace;
+
+// $text-font-stack: 'Georgia',  'Charter', 'Georgia', serif;
+// $interface-font-stack:  'Lato', 'Source Sans Pro', 'Roboto', 'PT Sans', 'Helvetica', sans-serif;
+// $header-font-stack:  'Playfair Display';
+// $mono-font-stack: 'Source Code Pro', monospace;
+// 
+// 
+// $interactive-color: #652920;
+// $active-color: #9C3B20;
+// 
+// $primary-color: #01161E;
+// $secondary-color: #124559;
+// // $tertiary-color:  mix($active-color, white, 10);598392
+// $tertiary-color:  mix($active-color, white, 10);
+// 
+// 
+// $butler-color: #ccc;
+// $bg-color: #fdfdfd;
+
+
+$font-adjust-sm: 0.5;
+$font-adjust-md: 0.8;
+$font-adjust-lg: 1;
+
+$x-height-offset: 0.25rem;

@@ -1,0 +1,33 @@
+.tag-info {
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.tag-info__image {
+  float: left;
+  margin: 0 1rem 0.5rem 0;  
+}
+
+.tag-info__image img {
+  margin: 0;  
+  max-height: 9rem;  
+}
+
+.tag-info__name{
+  margin-top: 2rem;
+}
+
+.tag-info__meta {
+  color: #444;
+  font-size: 1rem;
+}
+
+.tag-info__image,
+.tag-info__intro,
+.tag-info__name {
+  @include breakpoint(mbl) {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+}

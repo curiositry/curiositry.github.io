@@ -1,0 +1,28 @@
+@media print{
+  body {
+    background: #fff;
+    color: #000;
+    padding-top: 2cm !important;
+    font-size:10pt;
+  }
+
+  p a:after {
+    content: " (" attr(href) ")";
+    font-size: 80%;
+  }
+
+
+  .main-header__navigation, footer {
+    display: none;
+  }
+  
+  .main-header {
+    position: absolute;
+    top:0;
+    display: none;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+}
