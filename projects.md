@@ -11,7 +11,7 @@
 
 #### Older projects:
 
-5. [Markdown.tools][5]  *A pleasant way to print & view markdown documents*
+5. [markdown.curiositry.com][5]  *A pleasant way to print & view markdown documents*
 6. [Automathic.org][6]  *The Best Mathematical Forumlas on the Web*
 7. [The Free & Open Science Class][7]  *Fun, no-nonsense science projects that stimulate and inform*
 8. [The Ghost Theme Directory][8]  *Find the perfect theme for your blog*
@@ -27,7 +27,7 @@
 [2]: http://neurobb.com
 [3]: http://algebrarules.com
 [4]: http://mnml.herokuapp.com
-[5]: http://mark-down.meteor.com
+[5]: http://markdown.curiositry.com
 [6]: http://automathic.org
 [7]: http://scienceclass.github.io/
 [8]: http://ghost-themes.github.io/
