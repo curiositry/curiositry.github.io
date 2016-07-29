@@ -21,11 +21,11 @@
     <h1>Curiositry</h1>
     <h3>Code <span class="amp">&amp;</span> Content</h3><br clear="all">
   </header>
-  
-  <span><strong><span id="greeting">Good day</span></strong>, and thanks for stopping by! I craft code + content for the web and  <a href="http://autodidacts.io">write</a> about software and amateur neuroscience. 
+
+  <span><strong><span id="greeting">Good day</span></strong>, and thanks for stopping by! I craft code + content for the web and  <a href="http://autodidacts.io">write</a> about software and amateur neuroscience.
 In this <del style="text-decoration: line-through;">portfolio</del> listicle you’ll find some of the <del style="text-decoration: line-through;">startups</del> web projects I’ve <del style="text-decoration: line-through;">founded</del>  hacked together. Over on GitHub you can find my open-source <a href="http://github.com/curiositry"> code</a>, and you can follow <a href="http://twitter.com/curiositry">@curiositry</a> on Twitter for the occasional (gzipped) thought. </span>
   <main class="content" id="content">
-  
+
     <p><span class="featured-projects"></span></p>
   <h4 id="featured-projects-">Featured projects:</h4>
   <ol>
@@ -37,8 +37,9 @@ In this <del style="text-decoration: line-through;">portfolio</del> listicle you
   </ol>
   <h4 id="older-projects-">Other projects:</h4>
   <ol>
-  <li><a href="http://markdown.curiositry.com">markdown.curiositry.com</a>  <em>A pleasant way to print &amp; view markdown documents</em></li>
+  <!-- <li><a href="http://markdown.curiositry.com">markdown.curiositry.com</a>  <em>A pleasant way to print &amp; view markdown documents</em></li> -->
   <li><a href="http://automathic.org">Automathic.org</a>  <em>The Best Mathematical Forumlas on the Web</em></li>
+  <li><a href="http://github.com/curiositry/ReaDB">ReaDB</a>  <em>ReaDB is your private digital bookshelf. Read. Review. Remember. </em></li>
   <li><a href="http://scienceclass.github.io/">The Free &amp; Open Science Class</a>  <em>Fun, no-nonsense science projects that stimulate and inform</em></li>
   <li><a href="http://ghost-themes.github.io/">The Ghost Theme Directory</a>  <em>Find the perfect theme for your blog</em></li>
   <li><a href="http://curiositry.github.io/wise-wallpapers/">Wise Wallpapers</a>  <em>A Collection of Minimalist Typographic Wallpapers From Quotes &amp; Proverbs</em></li>
@@ -55,31 +56,48 @@ In this <del style="text-decoration: line-through;">portfolio</del> listicle you
     <hr class="plain-hr">
     &copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>
     &nbsp;
-    <span class="meta-spacer"></span> 
+    <span class="meta-spacer"></span>
     &nbsp;
     <a href="http://twitter.com/curiositry">
-      <i class="fa fa-twitter"></i> Twitter 
+      <i class="fa fa-twitter"></i> Twitter
     </a>
     &nbsp;
-    <span class="meta-spacer"></span> 
+    <span class="meta-spacer"></span>
     &nbsp;
     <a href="http://github.com/curiositry">
-      <i class="fa fa-github"></i> GitHub 
+      <i class="fa fa-github"></i> GitHub
     </a>
     &nbsp;
-    <span class="meta-spacer"></span> 
+    <span class="meta-spacer"></span>
     &nbsp;
     <a href="mailto:info@automathic.org">
-      <i class="fa fa-envelope"> </i> Email 
+      <i class="fa fa-envelope"> </i> Email
       </a>
     &nbsp;
-    <span class="meta-spacer"></span> 
+    <span class="meta-spacer"></span>
     &nbsp;
-    
+
     <em class="serif m0a db center-text" style="text-transform:capitalize;font-weight:400;"> The Creation is the Citation </em>
   </footer>
-    
+
   </script>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(["setDomains", ["*.curiositry.com","*.curiositry.github.io"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//piwik-rhcloudtest.rhcloud.com/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 4]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//piwik-rhcloudtest.rhcloud.com/piwik.php?idsite=4" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+
   <script>
       var data = [
        [0, 11, "Good morning"],          //It is always better to use an array
@@ -93,7 +111,7 @@ In this <del style="text-decoration: line-through;">portfolio</del> listicle you
            document.getElementById("greeting").innerHTML = data[i][2];
        }
     }
-    
+
     var cb = function() {
       var l = document.createElement('link'); l.rel = 'stylesheet';
       l.href = 'css/defer.css';
