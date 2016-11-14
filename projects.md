@@ -4,8 +4,9 @@
 1. [Autodidacts.io][1] *The blog of three thing-building, self-educating, voraciously-reading, computer-tinkering, music-playing brothers*
 2. [Neurobb.com][2] *The EEG, brain-computer interface, and biofeedback discussion forum.*
 3. [Algebrarules.com][3]  *All the most useful Rules of Algebra in one place: easy to understand, free, and accompanied by informative descriptions & examples.*
-4. [MNML Ghost Blog Theme][4]  *A beautiful, responsive, and featureful blog theme with great typography.*
-5. [EEGrunt][15] *A Collection Python EEG Analysis Utilities for OpenBCI*
+4. [Laminim Ghost Blog Theme][16]  *A premium ghost theme for serious bloggers.*
+5. [MNML Ghost Blog Theme][4]  *A beautiful, responsive, and featureful blog theme with great typography.*
+6. [EEGrunt][15] *A Collection Python EEG Analysis Utilities for OpenBCI*
 </span>
 
 
@@ -38,3 +39,4 @@
 [13]: http://github.com/curiositry/clean
 [14]: http://curiositry.github.io/flexbox_functions
 [15]: http://github.com/curiositry/EEGrunt
+[16]: https://creativemarket.com/Curiositry/1037280-Laminim-%E2%80%94-Ghost-Theme-for-Bloggers
