@@ -7,6 +7,7 @@
 4. [Laminim Ghost Blog Theme][16]  *A premium ghost theme for serious bloggers.*
 5. [MNML Ghost Blog Theme][4]  *A beautiful, responsive, and featureful blog theme with great typography.*
 6. [EEGrunt][15] *A Collection Python EEG Analysis Utilities for OpenBCI*
+7. [Diaeresis.js][17] *Wield diaereses like ~~Chuck~~ Mary Norris*
 </span>
 
 
@@ -40,3 +41,4 @@
 [14]: http://curiositry.github.io/flexbox_functions
 [15]: http://github.com/curiositry/EEGrunt
 [16]: https://creativemarket.com/Curiositry/1037280-Laminim-%E2%80%94-Ghost-Theme-for-Bloggers
+[17]: http://curiositry.com/diaeresis
