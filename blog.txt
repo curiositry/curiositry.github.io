@@ -1,0 +1,9 @@
+BLOG.TXT
+========
+
+
+2021-10-21 Hello, World 
+=======================
+
+This is the first post on a a cutting-edge weblog platform that took me only 5
+minutes to build from scratch, write the first post, and deploy.
