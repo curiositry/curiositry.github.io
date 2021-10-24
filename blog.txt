@@ -19,19 +19,19 @@ climate change.
 2021-10-22 - Post list chronology
 =================================
 
-Blog.txt supports multiple options for the chronological order of posts. If you
-start writing new posts below old posts, the default post sort is descending. If
-you start writing new posts above all the old posts, like I do, then the post
-sort algorithm will default to ascending. But if the user would like to change
-the sort order of the posts, they can press the "End" button on their keyboard
-to reverse the default chronological order!
+Blog.txt supports multiple options for the chronological order of posts. If
+you start writing new posts below old posts, the default post sort is
+descending. If you start writing new posts above all the old posts, like I do,
+then the post sort algorithm will default to ascending. But if the user would
+like to change the sort order of the posts, they can press the "End" button on
+their keyboard to reverse the default chronological order!
 
 
-                              ADVERTISEMENT:
-                Even plaintext sites can have advertisements.
-                If you want your Ghost blog to looks as ugly
-                          as stink, buy my theme: 
-             >>> https://creativemarket.com/Curiositry/3192652 <<<
+                             ADVERTISEMENT:
+               Even plaintext sites can have advertisements.
+               If you want your Ghost blog to looks as ugly
+                         as stink, buy my theme: 
+           >>> https://creativemarket.com/Curiositry/3192652 <<<
 
 
 
@@ -63,16 +63,16 @@ hosting a whiz-bang gated-content membership site?
 
 t s pssble tht hvnt actlly wrttn th rst f ths pst yt.
 
-                            -------PAYWALL-------
-                            Send an international
-                            wire transfer to gain
-                            access to the vowels!
+                           -------PAYWALL-------
+                           Send an international
+                           wire transfer to gain
+                           access to the vowels!
                             
 2021-10-22 - Images
 ===================
 
-You can have any colour of Rolls-Royce, as long as it's black. You can have any
-kind of image, as long as it's plaintext:
+You can have any colour of Rolls-Royce, as long as it's black. You can have
+any kind of image, as long as it's plaintext:
 
   |____________________________________________________|
   | __     __   ____   ___ ||  ____    ____     _  __  |
@@ -117,15 +117,15 @@ you've definitely been slashdotted.
 2021-10-22 - RSS 
 ================
 
-This is perhaps the (one?) area where blog.txt is less awesome than the bloated
-blogging behemoths: there's is no easy way to support RSS feeds, unless you
-write it by hand. But you can do that, if you want to be bespoke:
+This is perhaps the (one?) area where blog.txt is less awesome than the
+bloated blogging behemoths: there's is no easy way to support RSS feeds,
+unless you write it by hand. But you can do that, if you want to be bespoke:
 
 https://www.makeuseof.com/tag/how-to-create-an-rss-feed-for-your-site-from-scratch/ 
 
-Alternately, you can point users to https://visualping.io for email alerts when
-you update the blog. Plumb that together with https://kill-the-newsletter.com,
-and you have a feed in a handful of clicks.
+Alternately, you can point users to https://visualping.io for email alerts
+when you update the blog. Plumb that together with
+https://kill-the-newsletter.com, and you have a feed in a handful of clicks.
 
 Or, they can bake their own with a cronjob that checks the date modified!
 
@@ -136,15 +136,15 @@ wget --server-response --spider https://www.curiositry.com/blog.txt 2>&1 | grep
 
 Alternately, GitHub provides commit RSS feeds for repos at
 https://github.com/:user/:repo/commits.atom. Feed are also available for
-releases. If you're using GitHub pages for hosting, you can point your users to
-the feed. If your blog.txt is part of a larger repo, no big deal: most feed
+releases. If you're using GitHub pages for hosting, you can point your users
+to the feed. If your blog.txt is part of a larger repo, no big deal: most feed
 readers support filtering, and IFTTT can help those that don't.
 
 Postscript: there's one other thing that blog.txt (probably) sucks at: SEO.
-But SEO is a cesspit, so I'm not going to talk about it, other than to say good
-riddance; the problem with the rat race is that even if you win, you're still a
-rat. (On the other hand, blog.txt is perfectly optimized for nifty small- and
-slow-web search engines such as https://search.marginalia.nu/ and
+But SEO is a cesspit, so I'm not going to talk about it, other than to say
+good riddance; the problem with the rat race is that even if you win, you're
+still a rat. (On the other hand, blog.txt is perfectly optimized for nifty
+small- and slow-web search engines such as https://search.marginalia.nu/ and
 https://wiby.me/)
 
 
@@ -171,12 +171,12 @@ find that post I remember reading that talked about skipping over all the
 sourdough? 
 
 Lo and behold, blog.txt has powerful fulltext search: your computer's built in
-search engine is much better than most blog search engines. Just hit CTRL+F and
-type "skipping over all the sourdough". Because it's all one page, you can find
-anything almost instantly, just using your browser's page search.
+search engine is much better than most blog search engines. Just hit CTRL+F
+and type "skipping over all the sourdough". Because it's all one page, you can
+find anything almost instantly, just using your browser's page search.
 
-Or you can skip the web browser altogether, and read my blog as it was meant to
-be read -- in Vim:
+Or you can skip the web browser altogether, and read my blog as it was meant
+to be read -- in Vim:
 
 vim https://www.curiositry.com/blog.txt
 
@@ -204,9 +204,10 @@ will jump to the next use of the tag, skipping over all the sourdough!
 Curiositry said, "Let there be simplicity." And there was simplicity.
 
 What the heck is blog.txt? Glad you asked! Blog.txt is an experiment in
-constraints. The idea occurred to me on a sleepless night. I was thinking about
-author's websites, and how the websites of my favourite authors are often
-horribly out of date -- even the "Now" pages haven't been updated in years. 
+constraints. The idea occurred to me on a sleepless night. I was thinking
+about author's websites, and how the websites of my favourite authors are
+often horribly out of date -- even the "Now" pages haven't been updated in
+years. 
 
 Perhaps, I thought, it's because websites have gotten more complicated than
 necessary.
@@ -218,8 +219,9 @@ Text.
 That's it. Plaintext is the one thing that a blog needs.
 
 What if a blog was just a text file? That would mean ... no updates, no
-security problems, no janky formatting, no fussing with fonts, no searching for
-stock photos, no forgotten passwords, no cookie consent banners, no outages...
+security problems, no janky formatting, no fussing with fonts, no searching
+for stock photos, no forgotten passwords, no cookie consent banners, no
+outages...
 
 So I decided to try to take the blogging platform back to essentials, to its
 most absurdly basic form, and see how many of the features that we know and
