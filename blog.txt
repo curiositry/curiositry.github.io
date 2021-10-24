@@ -9,11 +9,11 @@ The most minimal blogging platform in the known universe -- or your money back!
 
 I believe this is the fastest, lightest blogging platform there is.
 
-This entire blog is about 9 kilobytes, uncompressed. That's only ~4.27
-kilobytes over the wire. This entire blog is less than 1/400th the size of an
-average page. It loads in milliseconds. It saves power, both on the server and
-on the client, reducing greenhouse gas emissions and helping to mitigate
-climate change.
+This entire blog is about 9 kilobytes, uncompressed. That's only ~5 kilobytes
+over the wire. This entire blog is less than 1/400th the size of an average
+page. It loads in milliseconds. It saves power, both on the server and on the
+client, reducing greenhouse gas emissions and helping to mitigate climate
+change.
 
 
 2021-10-22 - Post list chronology
