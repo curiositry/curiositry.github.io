@@ -1,9 +1,237 @@
 BLOG.TXT
 ========
 
+The most minimal blogging platform in the known universe -- or your money back!
 
-2021-10-21 Hello, World 
-=======================
 
-This is the first post on a a cutting-edge weblog platform that took me only 5
-minutes to build from scratch, write the first post, and deploy.
+2021-10-23 - Blink and you miss it 
+==================================
+
+I believe this is the fastest, lightest blogging platform there is.
+
+This entire blog is about 9 kilobytes, uncompressed. That's only ~4.27
+kilobytes over the wire. This entire blog is less than 1/400th the size of an
+average page. It loads in milliseconds. It saves power, both on the server and
+on the client, reducing greenhouse gas emissions and helping to mitigate
+climate change.
+
+
+2021-10-22 - Post list chronology
+=================================
+
+Blog.txt supports multiple options for the chronological order of posts. If you
+start writing new posts below old posts, the default post sort is descending. If
+you start writing new posts above all the old posts, like I do, then the post
+sort algorithm will default to ascending. But if the user would like to change
+the sort order of the posts, they can press the "End" button on their keyboard
+to reverse the default chronological order!
+
+
+                              ADVERTISEMENT:
+                Even plaintext sites can have advertisements.
+                If you want your Ghost blog to looks as ugly
+                          as stink, buy my theme: 
+             >>> https://creativemarket.com/Curiositry/3192652 <<<
+
+
+
+2021-10-22 - Comments
+=====================
+
+Miss the flame-wars and privacy-annihilating ad-networks of the comments
+section? Blog.txt has built commenting support, including comment moderation.
+Email me your comment, and I'll paste it in below the post with less effort
+than it would take for me to solve the captcha guarding the entrance to the
+catacombs of my Disqus moderation dashboard.
+
+Mum: really cool site.
+  Admin: Thanks!
+HN user: this site sucks. definitely should have built it in lisp.
+  Admin: Thanks for the feedback!
+n00b: Is your ghost theme compatible with wordpress?
+  Admin: Unfortunately not :/
+    n00b: what about the theme this site is running? i relly like it.
+
+
+2021-10-22 - Paid Memberships
+=============================
+
+Send me money, and I will email you the rest of this post, which is only
+available to paying members. "Does that scale?" Of course it does. Who are we
+kidding: how likely is it that we'll even get enough paying members to pay for
+hosting a whiz-bang gated-content membership site?
+
+t s pssble tht hvnt actlly wrttn th rst f ths pst yt.
+
+                            -------PAYWALL-------
+                            Send an international
+                            wire transfer to gain
+                            access to the vowels!
+                            
+2021-10-22 - Images
+===================
+
+You can have any colour of Rolls-Royce, as long as it's black. You can have any
+kind of image, as long as it's plaintext:
+
+  |____________________________________________________|
+  | __     __   ____   ___ ||  ____    ____     _  __  |
+  ||  |__ |--|_| || |_|   |||_|**|*|__|+|+||___| ||  | |
+  ||==|^^||--| |=||=| |=*=||| |~~|~|  |=|=|| | |~||==| |
+  ||  |##||  | | || | |JRO|||-|  | |==|+|+||-|-|~||__| |
+  ||__|__||__|_|_||_|_|___|||_|__|_|__|_|_||_|_|_||__|_|
+  ||_______________________||__________________________|
+  | _____________________  ||      __   __  _  __    _ |
+  ||=|=|=|=|=|=|=|=|=|=|=| __..\/ |  |_|  ||#||==|  / /|
+  || | | | | | | | | | | |/\ \  \\|++|=|  || ||==| / / |
+  ||_|_|_|_|_|_|_|_|_|_|_/_/\_.___\__|_|__||_||__|/_/__|
+  |____________________ /\~()/()~//\ __________________|
+  | __   __    _  _     \_  (_ .  _/ _    ___     _____|
+  ||~~|_|..|__| || |_ _   \ //\\ /  |=|__|~|~|___| | | |
+  ||--|+|^^|==|1||2| | |__/\ __ /\__| |==|x|x|+|+|=|=|=|
+  ||__|_|__|__|_||_|_| /  \ \  / /  \_|__|_|_|_|_|_|_|_|
+  |_________________ _/    \/\/\/    \_ _______________|
+  | _____   _   __  |/      \../      \|  __   __   ___|
+  ||_____|_| |_|##|_||   |   \/ __|   ||_|==|_|++|_|-|||
+  ||______||=|#|--| |\   \   o    /   /| |  |~|  | | |||
+  ||______||_|_|__|_|_\   \  o   /   /_|_|__|_|__|_|_|||
+  |_________ __________\___\____/___/___________ ______|
+  |__    _  /    ________     ______           /| _ _ _|
+  |\ \  |=|/   //    /| //   /  /  / |        / ||%|%|%|
+  | \/\ |*/  .//____//.//   /__/__/ (_)      /  ||=|=|=|
+__|  \/\|/   /(____|/ //                    /  /||~|~|~|__
+  |___\_/   /________//   ________         /  / ||_|_|_|
+  |___ /   (|________/   |\_______\       /  /| |______|
+      /                  \|________)     /  / | |
+
+ 
+
+2021-10-22 - Stats
+==================
+
+There is no way to include intrusive JavaScript tracking codes on a plaintext
+site. But you can still have analytics: if your server starts heating up,
+you've definitely been slashdotted.
+
+
+2021-10-22 - RSS 
+================
+
+This is perhaps the (one?) area where blog.txt is less awesome than the bloated
+blogging behemoths: there's is no easy way to support RSS feeds, unless you
+write it by hand. But you can do that, if you want to be bespoke:
+
+https://www.makeuseof.com/tag/how-to-create-an-rss-feed-for-your-site-from-scratch/ 
+
+Alternately, you can point users to https://visualping.io for email alerts when
+you update the blog. Plumb that together with https://kill-the-newsletter.com,
+and you have a feed in a handful of clicks.
+
+Or, they can bake their own with a cronjob that checks the date modified!
+
+wget --server-response --spider https://www.curiositry.com/blog.txt 2>&1 | grep
+-i Last-Modified
+
+...etc.
+
+Alternately, GitHub provides commit RSS feeds for repos at
+https://github.com/:user/:repo/commits.atom. Feed are also available for
+releases. If you're using GitHub pages for hosting, you can point your users to
+the feed. If your blog.txt is part of a larger repo, no big deal: most feed
+readers support filtering, and IFTTT can help those that don't.
+
+Postscript: there's one other thing that blog.txt (probably) sucks at: SEO.
+But SEO is a cesspit, so I'm not going to talk about it, other than to say good
+riddance; the problem with the rat race is that even if you win, you're still a
+rat. (On the other hand, blog.txt is perfectly optimized for nifty small- and
+slow-web search engines such as https://search.marginalia.nu/ and
+https://wiby.me/)
+
+
+2021-10-22 - What is a blog?  
+============================
+
+#sourdough
+
+It's a website with a collection of things that you've written. The basic
+features are the ability to create, delete, and edit blog posts.
+
+A plaintext file has all those features built in. 
+
+I'll talk about following a blog.txt in the next post.
+
+
+2021-10-22 - Search 
+===================
+
+#feature
+
+Another thing that's useful is to be able to find things on a site. How do I
+find that post I remember reading that talked about skipping over all the
+sourdough? 
+
+Lo and behold, blog.txt has powerful fulltext search: your computer's built in
+search engine is much better than most blog search engines. Just hit CTRL+F and
+type "skipping over all the sourdough". Because it's all one page, you can find
+anything almost instantly, just using your browser's page search.
+
+Or you can skip the web browser altogether, and read my blog as it was meant to
+be read -- in Vim:
+
+vim https://www.curiositry.com/blog.txt
+
+This gives you the power of Regex search. Use responsibly.
+
+
+2021-10-22 - #Tags 
+==================
+
+#feature
+
+Now, one of the first things any reasonable user wants from a weblog is some
+kind of organization. Most writers are interested in a number of topics,
+especially on a personal blog. However, readers are often interested in
+someone's thoughts on technology, but not their obsession with sourdough.
+
+Take a look at the top of this post. That's a tag up there. Now, you can hit
+"/" (or CTRL+F), and search for posts tagged "#feature". Hit enter, and it
+will jump to the next use of the tag, skipping over all the sourdough! 
+
+
+2021-10-22 - In the beginning...  
+================================
+
+Curiositry said, "Let there be simplicity." And there was simplicity.
+
+What the heck is blog.txt? Glad you asked! Blog.txt is an experiment in
+constraints. The idea occurred to me on a sleepless night. I was thinking about
+author's websites, and how the websites of my favourite authors are often
+horribly out of date -- even the "Now" pages haven't been updated in years. 
+
+Perhaps, I thought, it's because websites have gotten more complicated than
+necessary.
+
+And then I thought: what is really needed for a blog?
+
+Text.
+
+That's it. Plaintext is the one thing that a blog needs.
+
+What if a blog was just a text file? That would mean ... no updates, no
+security problems, no janky formatting, no fussing with fonts, no searching for
+stock photos, no forgotten passwords, no cookie consent banners, no outages...
+
+So I decided to try to take the blogging platform back to essentials, to its
+most absurdly basic form, and see how many of the features that we know and
+love could be retained in a blogging platform that didn't even exist.
+
+
+2021-10-21 - Hello, World 
+=========================
+
+This is the first post on a cutting-edge weblog platform that took me only 5
+minutes to build from scratch, including writing this post & deploying.
+
+
+---------------------------
+Made by hand by @curiositry
