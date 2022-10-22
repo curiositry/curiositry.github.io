@@ -11,7 +11,7 @@
   <meta name="HandheldFriendly" content="True">
 
   <title>Curiositry &bull; Code &amp; Content</title>
-  <link rel="stylesheet" href="css/main.css" media="screen" />
+  <link rel="stylesheet" href="css/main.min.css" media="screen" />
   <link rel="shortcut icon" href="https://cdn.autodidacts.io/img/gravatar-favicon.png" />
   <link rel="apple-touch-icon" href="https://cdn.autodidacts.io/img/gravatar-small.png" />
 
@@ -110,7 +110,7 @@
       <i class="fa fa-envelope"> </i> Email
     </a>
     &nbsp;
-    <span class="meta-spacer"></span>
+    <span hidden class="meta-spacer"></span>
     &nbsp;
 
     <em hidden class="serif m0a db center-text" style="text-transform:capitalize;font-weight:400;"> The Creation is the
@@ -152,7 +152,7 @@
 
     var cb = function () {
       var l = document.createElement('link'); l.rel = 'stylesheet';
-      l.href = 'css/defer.css';
+      l.href = 'css/defer.min.css';
       var h = document.getElementsByTagName('head')[0];
       h.parentNode.insertBefore(l, h);
     };

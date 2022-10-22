@@ -30,8 +30,8 @@
 
 
 .btn--cta {
-  @include gradient(darken(adjust-hue($active-color, -3%), 3%),
-                    darken(adjust-hue($active-color, -10%), 10%)
+  @include gradient(darken($active-color, 3%),
+                    darken($active-color, 10%)
                    );
   color:white;
   border: 2px solid  darken($tertiary-color, 20);
@@ -39,9 +39,6 @@
   box-shadow: none;
   
   &:hover {
-    @include gradient(adjust-hue($active-color, 10%), 
-                      adjust-hue($active-color, 10%)
-                     );
     box-shadow: 0 0 1rem -0.3rem $primary-color inset;
   }
 }
